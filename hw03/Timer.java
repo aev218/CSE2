@@ -20,10 +20,14 @@ public static void main (String[] args) {
     System.out.print("Enter the dinner time ");
     double dinnerTime = myScanner .nextDouble();
     
+    //time until dinner
     double timeUntilDinner;
     int HHMM, hours, minutes;
+    //Calculation for time until dinner
     timeUntilDinner = dinnerTime - currentTime;
+    //hours wait time
     hours = (int)(timeUntilDinner/100);
+    //minutes wait time
     minutes = (int)(timeUntilDinner)%100;
     //System.out.println(("Time until dinner " + ' ' + hours + minutes));
     System.out.println("You have " +hours+ " hours and " +minutes+ " minutes until dinner");
