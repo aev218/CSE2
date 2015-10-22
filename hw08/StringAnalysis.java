@@ -47,21 +47,10 @@ public class StringAnalysis{
                     
                 }
             }
-           //
-            
-        
-        //
-        
-        //else if(stringNumChars.equals("no")){
-          //  if (charact{
-           //     System.out.print("Your string only contains letters");
-                
-            //}
-            
-        //}
-     //System.out.print("evaluate");
+           
     }
     //////////
+    //method checks both string and int
     public static boolean characterCheck(String input, int j){
         int index = 0;
         //
@@ -81,6 +70,7 @@ public class StringAnalysis{
         return true;
     }
     //////////
+    //Method which checks string only
     public static boolean characterCheck(String input){
         for(int i=0; i<input.length(); i++){
             if(!Character.isLetter(input.charAt(i))){

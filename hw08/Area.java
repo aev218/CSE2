@@ -2,6 +2,8 @@
 //CSE 2
 //OCT 19,2015
 //Stats.java program
+
+//import scanner
 import java.util.Scanner;
 public class Area{
     public static void input (String in){
@@ -20,6 +22,7 @@ public class Area{
           
         }
         ////////////////////////////
+        //Ask user for inputs if rectangle
         if(in.equals("rectangle")){
             System.out.println("Enter length");
             while(!myShape.hasNextDouble()){
